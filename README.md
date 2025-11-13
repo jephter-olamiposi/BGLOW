@@ -2,7 +2,7 @@
 
 This project implements the BGLOW website. It addresses the need for a functional and responsive online presence for BGLOW.
 
-Key benefits include a modern user interface built with CSS, a clear presentation of information, and a foundation for future content updates. The website provides a platform for showcasing BGLOW's services and information.
+Key benefits include a modern user interface, improved accessibility, and a maintainable codebase. The website is designed to provide information and engage users effectively.
 
 ## Table of Contents
 
@@ -34,25 +34,22 @@ This project utilizes the following technologies:
 
 To successfully build and deploy the BGLOW website, ensure the following prerequisites are met.
 
-**Required:**
+**Required Software:**
 
 *   **Web Browser:** A modern web browser such as Chrome, Firefox, or Safari.
 *   **Text Editor:** A code editor like Visual Studio Code, Sublime Text, or Atom.
-*   **Git:** Version control system for cloning the repository. Install Git version 2.28.0 or later.
-    ```bash
-    git --version
-    ```
+*   **Git:** Version control system for cloning the repository. Minimum version: `2.28.0`.
+*   **Node.js and npm:** JavaScript runtime environment and package manager. Minimum versions: Node.js `16.x` and npm `8.x`.
 
-**Optional:**
+**Optional Software:**
 
-*   **Code Linting/Formatting Tools:** Consider using tools like Prettier or ESLint for code quality.
-*   **Local Web Server:** A local web server (e.g., Apache, Nginx) for testing the website locally.
+*   **Code Linting and Formatting Tools:** Consider using tools like ESLint and Prettier for code quality and consistency.
 
 ## Installation
 
 To set up the BGLOW website, follow these steps:
 
-1.  Clone the repository using Git.
+1.  Clone the repository to your local machine.
 
     ```bash
     git clone https://github.com/jephter-olamiposi/BGLOW.git
@@ -64,25 +61,22 @@ To set up the BGLOW website, follow these steps:
     cd BGLOW
     ```
 
-3.  Install the necessary dependencies using npm.
+3.  Install the necessary dependencies.  This project uses npm for package management.
 
     ```bash
     npm install
     ```
 
+```markdown
 ## Usage
 
-To run the BGLOW website, navigate to the project directory in your terminal and execute the following command:
+To run the BGLOW website, open the `index.html` file in your preferred web browser. No server-side setup is required for basic usage.
 
-```bash
-npm start
-```
-
-This command starts the development server, typically making the website accessible at `http://localhost:3000`.
+The website is structured using CSS. You can modify the CSS files directly to customize the appearance.
 
 ## Contributing
 
-Thank you for your interest in contributing to the BGLOW project. Your contributions are highly valued. Please review the following guidelines before submitting any changes.
+Thank you for your interest in contributing to the BGLOW project. Your contributions are highly valued.
 
 ## License
 
